@@ -1,20 +1,70 @@
-# Cryptex Terminal – A Real-Time Encryption Interface
+# 💀 Cryptex Terminal
 
-Cryptex Terminal is a full-stack cryptography web app that lets users encrypt and decrypt text messages in real-time using Python’s Fernet symmetric encryption.
-Built with React on the frontend and Flask on the backend, this project provides a seamless and hacker-styled interface for experimenting with secure message encoding.
+![React](https://img.shields.io/badge/Frontend-React-blue?logo=react)
+![Flask](https://img.shields.io/badge/Backend-Flask-black?logo=flask)
+![Python](https://img.shields.io/badge/Language-Python-blue?logo=python)
+![License](https://img.shields.io/github/license/ANKII/cryptex-terminal)
+![Status](https://img.shields.io/badge/Status-Working%20Prototype-brightgreen)
 
-Whether you're a curious beginner learning about encryption or a developer looking to integrate lightweight cryptography into your workflow — Cryptex Terminal offers a clean, interactive sandbox.
+> ✨ A real-time encryption-decryption app with a dark-themed UI.  
+> Built using **React + Flask + Fernet Encryption**, this app auto-generates a `secret.key` to ensure secure and consistent cryptographic operations.
 
-#Highlights:
-⚡ Real-time encryption preview (character-by-character)
-🌓 Dark hacker-themed UI for immersive experience
-🔁 Dual output zones: Encrypted 🔒 and Decrypted 🔓
-📋 One-click copy buttons for quick usage
-🔑 Auto-generates and stores a persistent secret.key file in backend
-🔥 Built with React + Flask + Python + Fernet (Cryptography)
+---
 
-#Tech Stack
--Frontend: React, TailwindCSS (optional), JavaScript
--Backend: Python, Flask, Flask-CORS
--Encryption: Fernet (symmetric encryption with key-based protection)
--Other: Axios, JSON handling
+## 🔐 Features
+
+- ⚡ **Live Encryption Preview** – Realtime character-by-character encryption
+- 🌑 **Dark Terminal-Themed UI** – Aesthetic, sleek and responsive
+- 🔒 **Encrypt + Decrypt Zones** – Each with copy-to-clipboard functionality
+- 🔑 **Auto-Generated Key** – `secret.key` is created and reused securely
+- 🔁 **One-click Copy Buttons** – For quick access to encrypted/decrypted output
+- 🧠 **Built With Learning in Mind** – Great for exploring basic cryptography
+
+---
+
+## 🧠 Tech Stack
+
+| Layer       | Tools                      |
+|-------------|----------------------------|
+| Frontend    | React, JavaScript, TailwindCSS (optional) |
+| Backend     | Flask, Flask-CORS          |
+| Encryption  | Python `cryptography.fernet` |
+| Extras      | Axios, Markdown styling, Copy-to-clipboard API |
+
+
+### ⚛️ Frontend (React + Vite)
+```bash
+cd cryptex-frontend
+npm install
+npm run dev
+```
+
+
+### 🐍 Backend (Flask + Python)
+```bash
+cd cryptex-backend
+python -m venv venv
+source venv/bin/activate  # Windows: venv\Scripts\activate
+pip install -r requirements.txt
+python app.py
+```
+##### 📌 On first run, a secret.key file is automatically created in Config (cryptex-backend/Config) and used for all encryption/decryption operations.
+
+#### 📦 `requirements.txt` (inside `/cryptex-backend` folder)
+
+```txt
+flask
+flask-cors
+cryptography
+```
+---
+
+## Future Plans
+- Multi-user login + encryption key assignment
+- Encryption history log
+- More encryption algorithms: AES, RSA, etc.
+- Export encrypted data to .txt or .json
+---
+
+### Created by ANKII
+#### LinkedIn- https://www.linkedin.com/in/ohmicguy/
