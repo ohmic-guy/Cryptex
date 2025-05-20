@@ -66,5 +66,5 @@ cryptography
 - Export encrypted data to .txt or .json
 ---
 
-### Created by ANKII
+### Created by OHMIC GUY
 #### LinkedIn- https://www.linkedin.com/in/ohmicguy/
