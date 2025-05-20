@@ -3,7 +3,6 @@
 ![React](https://img.shields.io/badge/Frontend-React-blue?logo=react)
 ![Flask](https://img.shields.io/badge/Backend-Flask-black?logo=flask)
 ![Python](https://img.shields.io/badge/Language-Python-blue?logo=python)
-![License](https://img.shields.io/github/license/ANKII/cryptex-terminal)
 ![Status](https://img.shields.io/badge/Status-Working%20Prototype-brightgreen)
 
 > ✨ A real-time encryption-decryption app with a dark-themed UI.  
